@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\vatsal\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add live-server
+
+PATH: 
+  C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\EHD\gtkwave-3.3.100-bin-win64\gtkwave64\bin;C:\EHD\ghdl-0.36-mingw32-mcode\GHDL\0.36-mingw32-mcode\bin;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ffmpeg\bin;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Users\vatsal\AppData\Local\Microsoft\WindowsApps;;C:\Users\vatsal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vatsal\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\vatsal\AppData\Local\Yarn\Cache\v6\npm-@babel-helper-simple-access-7.7.4-a169a0adb1b5f418cfc19f22586b2ebf58a9a294-integrity\node_modules\@babel\helper-simple-access\package.json' -> 'C:\Users\vatsal\Documents\React\calculator\node_modules\@babel\helper-simple-access\package.json'
+
+npm manifest: 
+  {
+    "name": "calculator",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-scripts": "3.2.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

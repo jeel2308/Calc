@@ -1,0 +1,49 @@
+ *{
+    box-sizing: border-box;
+}
+/*.dialpad{
+    position : relative;
+    left : 100%;
+    transform: translateX(-100%);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width : 50%;
+}
+.number {
+    width : 100%;
+    padding : 10px 10px;
+    border : 1px solid black;
+} */
+.dialpad {
+    display : grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width : 100%;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.last {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    width: 100%;
+}
+
+.operator{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.operand {
+    display : grid;
+    grid-template-columns: auto auto auto;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.btn{
+    border-bottom: 1px solid black;
+    border-right : 1px solid black;
+    
+}

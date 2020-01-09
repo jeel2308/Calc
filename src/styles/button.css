@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 35px 0;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: none;
+  border-left: none;
+  height: 100%;
+  /* background-color : rgba(0,191,255,1); */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.ops {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.hover_og {
+  background-color: rgba(255, 222, 173, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.hover_wh {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button[class="button"]:active {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+button[class="button ops"]:active {
+  background-color: rgba(255, 222, 173, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+button:disabled {
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.active_op {
+  background-color: rgba(255, 222, 173, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.active {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 1);
+}
